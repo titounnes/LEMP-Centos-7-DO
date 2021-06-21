@@ -31,7 +31,7 @@ yum install mariadb-server -y
 echo "start mariadb"
 systemctl start mariadb.service
 systemctl enable mariadb
-#mysql_secure_installation
+mysql_secure_installation
 
 #install php7.4
 
